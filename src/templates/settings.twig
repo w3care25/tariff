@@ -1,0 +1,26 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Tariff plugin for Craft CMS 3.x
+ *
+ * Tariff Settings.twig
+ *
+ * @author    W3care
+ * @copyright Copyright (c) 2018 W3care
+ * @link      http://w3care.com
+ * @package   Tariff
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("w3caretariff\\tariff\\assetbundles\\tariff\\TariffAsset") %}
+
+{{ forms.textField({
+    label: 'Some Field',
+    instructions: 'Enter some setting here.',
+    id: 'someAttribute',
+    name: 'someAttribute',
+    value: settings['someAttribute']})
+}}

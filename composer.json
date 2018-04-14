@@ -3,7 +3,6 @@
     "description": "Tariff ",
     "type": "craft-plugin",
     "version": "1.0.0",
-    "minimum-stability":"dev",
     "keywords": [
         "craft",
         "cms",
@@ -22,6 +21,8 @@
             "homepage": "http://w3care.com"
         }
     ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
     "require": {
         "craftcms/cms": "^3.0.0-RC1"
     },

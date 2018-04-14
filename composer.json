@@ -1,5 +1,5 @@
 {
-    "name": "w3caretariff/tariff",
+    "name": "w3care/tariff",
     "description": "Tariff ",
     "type": "craft-plugin",
     "version": "0.0.1",
@@ -21,14 +21,14 @@
             "homepage": "http://w3care.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
         "craftcms/cms": "^3.0.0-RC1"
     },
     "autoload": {
         "psr-4": {
-          "w3caretariff\\tariff\\": "src/"
+          "w3care\\tariff\\": "src/"
         }
     },
     "extra": {
@@ -37,6 +37,6 @@
         "hasCpSettings": true,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/w3care25/tariff/master/CHANGELOG.md",
-        "class": "w3caretariff\\tariff\\Tariff"
+        "class": "w3care\\tariff\\Tariff"
     }
 }

@@ -24,8 +24,8 @@
     "minimum-stability":"dev",
     "prefer-stable": true,
     "require": {
-         "craftcms/cms": "^3.0.0",
-    },
+         "craftcms/cms": "^3.0.0"
+     },
     "autoload": {
         "psr-4": {
           "w3caretariff\\tariff\\": "src/"

@@ -1,5 +1,5 @@
 {
-    "name": "w3caretariff/tariff",
+    "name": "w3care25/tariff",
     "description": "Tariff ",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -25,7 +25,6 @@
     "prefer-stable": true,
     "require": {
          "craftcms/cms": "^3.0.0",
-         "w3caretariff/tariff": "dev-master"
     },
     "autoload": {
         "psr-4": {
